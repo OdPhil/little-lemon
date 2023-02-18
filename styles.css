@@ -1,0 +1,127 @@
+body {
+    background-color: #edefee;
+    font-family: 'Poppins', sans-serif;
+    color: #495E57;
+    margin: 3rem 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}  
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #F4CE14;
+    border-radius: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #495E57;
+    font-size: 1.25rem;
+    padding: 1rem;
+    transition: transform 0.5s;
+}
+
+nav a:hover {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.advert {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.60)), url(images/spag.jpeg) no-repeat center;
+    background-size: cover;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.ad-text {
+    padding: 1rem;
+    color: #fff;
+}
+
+.ad-text p {
+    font-size: 25px;
+}
+
+.ad-text p a {
+    text-decoration: none;
+    color: #F4CE14;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.article-content {
+    margin: 1rem 0.5rem;
+    background-color: #f5f6c3;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.article-content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    padding: 1rem;
+}
+
+.article-content h2 {
+    padding: 0.5rem 1rem;
+}
+
+.article-content p {
+    padding: 0.5rem 1rem;
+}
+
+.article-content p ul {
+    text-align: left;
+}
+
+.article-content p a {
+    text-decoration: double;
+}
+
+span {
+    color: #ff0000;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 5%;
+}
+
+.copyright {
+    text-align: right;
+}
