@@ -1,0 +1,49 @@
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #495E57;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #F4CE14;
+  }
+  
+  .hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .hero-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .hero-image {
+      margin-top: 30px;
+    }
+  }
+  
