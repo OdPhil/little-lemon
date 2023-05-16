@@ -2,15 +2,16 @@ import React from 'react';
 import './Footer.css';
 import Logo from './img/logo.png'
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
+import {Routes, Route, Link} from 'react-router-dom';
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer-links">
-        <a href="#">Home</a>
-        <a href="#">Reservations</a>
+      <Link to="/" className="footer-links">Home</Link>
+      <Link to="/booking-page" className="footer-links">Reservations</Link>
         <a href="#">Menu</a>
-        <a href="#">About Us</a>
+      <Link to="/about-us" className="footer-links">About Us</Link>
       </div>
       <div className="social-media">
         <a href="#">

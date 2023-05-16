@@ -10,15 +10,9 @@ function AboutUs() {
         <h2 className="heading">About Us</h2>
         <h3 className="subheading">Our Story</h3>
         <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-          vestibulum lacus. Vestibulum ante ipsum primis in faucibus orci luctus
-          et ultrices posuere cubilia curae; Suspendisse sollicitudin sapien
-          augue, vel laoreet nibh porttitor id. Sed ut augue eleifend, semper
-          neque eu, sollicitudin odio. Morbi euismod sapien quis felis suscipit,
-          vel feugiat mauris viverra. Nunc eget faucibus arcu. Suspendisse
-          vehicula gravida lorem, ut dictum nisl rutrum at. Donec vestibulum
-          mauris vitae massa efficitur, eget elementum lacus lacinia. Aliquam
-          maximus lobortis enim ac sollicitudin.
+          In the bustling city of Chicago, there is a charming restaurant called Little Lemon, owned by Mario and Adrian. It exudes warmth, hospitality, and offers delicious food that enchants the taste buds. Mario, with his culinary prowess, crafts delectable flavors that dance on the palate, while Adrian ensures that every guest feels like a cherished friend with his warm smile and genuine care. Little Lemon is a culinary haven that celebrates the art of food and creates a welcoming atmosphere for all who visit.
+<br />
+Mario and Adrian pour their hearts and souls into Little Lemon, sourcing fresh ingredients from local farmers and artisans to create dishes that are a celebration of quality and flavor. The restaurant has become a culinary gem, attracting both locals and tourists with its enticing aromas and vibrant atmosphere. Little Lemon is not just a place to eat but a place where cherished memories are made, where celebrations are elevated, and where people find solace in the simple joy of a good meal shared with loved ones. Mario and Adrian's passion, talent, and genuine care have created a magical dining experience that continues to bring smiles and joy to all who visit Little Lemon.
         </p>
       </div>
       <div className="about-us-right">

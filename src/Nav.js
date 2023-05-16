@@ -21,9 +21,6 @@ function Nav() {
           {/* <a href="/about" className="nav-link">About Us</a> */}
           <Link to="/about-us" className="nav-link">About Us</Link>
         </li>
-        <li className="nav-item">
-          <a href="/about" className="nav-link">Contact Us</a>
-        </li>
       </ul>
     </nav>
   );
